@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    min-height: 75vh;
+    
+    .main_text {
+        
+        h1 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+            font-weight: 700;
+            font-size: 48px;
+            color: white;
+        }
+
+        h3 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+            font-size: 28px;
+            color: white;
+            margin-top: 3%;
+        }
+
+        a {
+            button {
+                margin:3% 1% 1% 35%;
+                padding: 3%;
+                border-radius: 50px;
+                border: 2px solid orange;
+                background-color: yellow;
+            }
+        }
+    }
+}

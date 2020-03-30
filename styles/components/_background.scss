@@ -1,0 +1,19 @@
+.background {
+	background: url(../assets/main_bg.jpg) center repeat;
+	@include bg_pos;
+}
+
+.background_rooms {
+	background: url(../assets/bg_rooms.jpg) center repeat;
+    @include bg_pos;
+}
+
+.background_gallery {
+	background: url(../assets/) center repeat;
+	@include bg_pos;
+}
+
+.background_contacts {
+	background: url(../assets/) center repeat;
+	@include bg_pos;
+}
