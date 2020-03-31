@@ -172,7 +172,7 @@ a:hover, a:focus {
 }
 
 .background_contacts {
-  background: url(../assets/) center repeat;
+  background: url(../assets/bg_rooms.jpg) center repeat;
   z-index: -1;
   position: absolute;
   top: 0;
@@ -319,6 +319,49 @@ a:hover, a:focus {
           box-shadow: 0 0 15px yellow;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.card:hover h1 {
+  color: yellow;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contacts_main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+}
+
+.contacts_main .address {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: end;
+  line-height: 1.5em;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contacts_main ul a {
+  color: black;
+}
+
+iframe {
+  width: 90%;
+  height: 450px;
+  border: none;
+  margin: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  iframe {
+    width: 80%;
+    margin: 2%;
+  }
 }
 
 .footer {

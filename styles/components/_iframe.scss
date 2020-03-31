@@ -1,0 +1,12 @@
+iframe {
+    width: 90%; 
+    height: 450px;
+    border: none;
+    margin: 5%;
+
+    @media screen and (max-width: 768px) {
+        width: 80%;
+        margin: 2%;
+    }
+    
+}

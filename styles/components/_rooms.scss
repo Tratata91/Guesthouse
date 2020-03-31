@@ -74,4 +74,9 @@
 .card:hover {
     box-shadow: 0 0 15px yellow;
     transition: 0.5s;
+
+    h1 {
+        color: yellow;
+        transition: 0.5s;
+    }
 }
