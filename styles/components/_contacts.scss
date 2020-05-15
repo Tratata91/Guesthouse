@@ -3,7 +3,9 @@
     grid-template-columns: 1fr 2fr;
     
     @media screen and (max-width: 768px) {
-
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
     }
 
     .address {
@@ -13,6 +15,10 @@
         line-height: 1.5em;
         font-weight: 700;
         font-size: 20px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 16px;
+        }
     }
 
     ul{

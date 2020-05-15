@@ -150,36 +150,43 @@ a:hover, a:focus {
 }
 
 .background_rooms {
-  background: url(../assets/bg_rooms.jpg) center repeat;
+  background: url(../assets/bg_rooms_2.png) center repeat;
   z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: cover;
 }
 
 .background_gallery {
-  background: url(../assets/) center repeat;
+  background: url(../assets/bg_rooms_2.png) center repeat;
   z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: cover;
 }
 
 .background_contacts {
-  background: url(../assets/bg_rooms.jpg) center repeat;
+  background: url(../assets/bg_rooms_2.png) center repeat;
   z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: cover;
+}
+
+.background_about {
+  background: url(../assets/bg_rooms_2.png) center repeat;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .main {
@@ -196,6 +203,10 @@ a:hover, a:focus {
       -ms-flex-positive: 1;
           flex-grow: 1;
   min-height: 75vh;
+}
+
+.main .main_text {
+  padding-right: 4%;
 }
 
 .main .main_text h1 {
@@ -219,6 +230,46 @@ a:hover, a:focus {
   border-radius: 50px;
   border: 2px solid orange;
   background-color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+}
+
+.main .main_text a button:hover {
+  cursor: pointer;
+}
+
+.about_main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.about_main .about_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2%;
+}
+
+.about_main .about_us h2 {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 3%;
+}
+
+.about_main .about_us p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about_main .about_us ul > li {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .main_rooms {
@@ -315,14 +366,14 @@ a:hover, a:focus {
 }
 
 .card:hover {
-  -webkit-box-shadow: 0 0 15px yellow;
-          box-shadow: 0 0 15px yellow;
+  -webkit-box-shadow: 0 0 15px orange;
+          box-shadow: 0 0 15px orange;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .card:hover h1 {
-  color: yellow;
+  color: orange;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -332,6 +383,17 @@ a:hover, a:focus {
   display: grid;
   -ms-grid-columns: 1fr 2fr;
       grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts_main {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  }
 }
 
 .contacts_main .address {
@@ -344,6 +406,12 @@ a:hover, a:focus {
   line-height: 1.5em;
   font-weight: 700;
   font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts_main .address {
+    font-size: 16px;
+  }
 }
 
 .contacts_main ul a {
@@ -404,10 +472,12 @@ iframe {
           flex-grow: 1;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 1%;
 }
 
 .footer_col li {
   padding-bottom: 10px;
+  margin-left: 1%;
 }
 
 .footer_col a:hover,
@@ -432,6 +502,7 @@ iframe {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  padding: 1%;
 }
 
 @media screen and (max-width: 350px) {

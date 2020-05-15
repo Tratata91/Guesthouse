@@ -56,6 +56,7 @@
         border: none;
         margin-top: 5%;
         margin-bottom: 2%;
+        
         img {
             max-width: 100%;
         }
@@ -72,11 +73,11 @@
 }
 
 .card:hover {
-    box-shadow: 0 0 15px yellow;
+    box-shadow: 0 0 15px orange;
     transition: 0.5s;
 
     h1 {
-        color: yellow;
+        color: orange;
         transition: 0.5s;
     }
 }

@@ -4,16 +4,21 @@
 }
 
 .background_rooms {
-	background: url(../assets/bg_rooms.jpg) center repeat;
-    @include bg_pos;
+	background: url(../assets/bg_rooms_2.png) center repeat;
+    @include bg_pos_1;
 }
 
 .background_gallery {
-	background: url(../assets/) center repeat;
-	@include bg_pos;
+	background: url(../assets/bg_rooms_2.png) center repeat;
+	@include bg_pos_1;
 }
 
 .background_contacts {
-	background: url(../assets/bg_rooms.jpg) center repeat;
-	@include bg_pos;
+	background: url(../assets/bg_rooms_2.png) center repeat;
+	@include bg_pos_1;
+}
+
+.background_about {
+	background: url(../assets/bg_rooms_2.png) center repeat;
+	@include bg_pos_1;
 }
