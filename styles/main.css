@@ -192,11 +192,10 @@ a:hover, a:focus {
 .photo-card {
   max-width: 100%;
   border: 1px solid black;
-  margin-top: 15px;
+  margin: 15px 3% 10px 3%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin-bottom: 10px;
 }
 
 .photo-card:hover {
@@ -381,8 +380,7 @@ a:hover, a:focus {
   text-align: center;
   background: none;
   border: none;
-  margin-top: 5%;
-  margin-bottom: 2%;
+  margin: 5% 4% 2% 4%;
 }
 
 .center .card img {
