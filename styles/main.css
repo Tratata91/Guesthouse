@@ -226,6 +226,12 @@ a:hover, a:focus {
   min-height: 75vh;
 }
 
+@media screen and (max-width: 578px) {
+  .main {
+    padding: 4% 4%;
+  }
+}
+
 .main .main_text {
   padding-right: 4%;
 }

@@ -5,6 +5,10 @@
     flex-grow: 1;
     min-height: 75vh;
 
+    @media screen and (max-width: 578px) {
+        padding: 4% 4% ;
+    }
+
     // .main_gallery {
     //     // width: 960px;
     //     // margin: 0 auto;
