@@ -198,6 +198,14 @@ a:hover, a:focus {
   height: fit-content;
 }
 
+@media screen and (max-width: 578px) {
+  .photo-card {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
 .photo-card:hover {
   -webkit-box-shadow: 1px 1px 10px orange;
           box-shadow: 1px 1px 10px orange;
